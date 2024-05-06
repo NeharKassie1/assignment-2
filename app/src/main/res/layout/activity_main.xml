@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewWelcomeMessage"
+        android:layout_width="299dp"
+        android:layout_height="281dp"
+        android:layout_below="@+id/imageViewPet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="My name is Spike and I am your new pet, these are wellness levels. You are to ensure that I am adequatly happy at all times."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="273dp"
+        android:layout_height="159dp"
+        android:layout_alignBottom="@id/buttonClean"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/PET4" />
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="231dp"
+        android:layout_height="341dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/PET2" />
+
+    <Button
+        android:id="@+id/buttonFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewPet"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="294dp"
+        android:text="Feed" />
+
+    <Button
+        android:id="@+id/buttonClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewPet"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="296dp"
+        android:layout_toEndOf="@id/buttonFeed"
+        android:text="Clean" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewPet"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="293dp"
+        android:layout_toEndOf="@+id/buttonClean"
+        android:text="Play" />
+
+</RelativeLayout>

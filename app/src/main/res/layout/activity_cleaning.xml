@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".CleaningActivity">
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+        android:layout_alignBottom="@id/buttonClean"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/petcleann" />
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="1300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/dogcleaning" />
+
+    <TextView
+        android:id="@+id/textViewCleaningMessage"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="Cleaning Time!"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonClean"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_below="@id/textViewCleaningMessage"
+        android:layout_marginTop="582dp"
+        android:text="Play With Me !"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="40dp"
+        android:text="I feel so much cleaner now , why dont we go play for a bit?"
+        android:textColor="@color/black"
+        android:layout_below="@id/imageViewPet" />
+
+
+
+</RelativeLayout>

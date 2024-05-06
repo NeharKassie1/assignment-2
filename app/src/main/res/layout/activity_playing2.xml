@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".playing2">
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/buttonPlay"
+        android:layout_alignBottom="@id/buttonPlay"
+        android:layout_marginBottom="357dp"
+        android:src="@drawable/petplay" />
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:src="@drawable/dog9" />
+
+    <TextView
+        android:id="@+id/textViewPlayingMessage"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_below="@id/imageViewPet"
+        android:layout_marginTop="184dp"
+        android:text="Thanks for taking care of me , check back on me in a few hours to make sure that I am satisfied!"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="match_parent"
+        android:layout_height="100"
+        android:layout_below="@id/imageViewPet"
+        android:layout_marginTop="469dp"
+        android:text="Return To Homescreen"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
